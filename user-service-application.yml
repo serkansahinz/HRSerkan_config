@@ -20,8 +20,8 @@ jwt:
   issuer: ${serkanissuer}
 rabbitmq:
   register-queue: register-queue
-  activation-queue: queue-activation
-  user-exchange: user-exchange
+  # activation-queue: queue-activation
+  # user-exchange: user-exchange
   # # mail-queue: queue-mail
   # # mail-binding-key: mail-key
   
