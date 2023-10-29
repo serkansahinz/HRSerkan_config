@@ -20,6 +20,3 @@ jwt:
   issuer: ${serkanissuer}
 rabbitmq:
   register-queue: register-queue
-
-
-  
