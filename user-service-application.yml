@@ -19,6 +19,6 @@ jwt:
   secretKey: ${serkansecretkey}
   issuer: ${serkanissuer}
 rabbitmq:
-  auth-exchange: auth-exchange
+  user-exchange: user-exchange
   register-binding-key: register-key
   register-queue: register-queue
