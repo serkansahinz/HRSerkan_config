@@ -1,11 +1,11 @@
 server:
   port: 6062
 spring:
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: user
-    password: 12345
+  # rabbitmq:
+  #   host: localhost
+  #   port: 5672
+  #   username: user
+  #   password: 12345
   datasource:
     username: postgres
     password: 123456789
@@ -18,6 +18,6 @@ spring:
 jwt:
   secretKey: ${serkansecretkey}
   issuer: ${serkanissuer}
-rabbitmq:
-  register-queue: register-queue
-  activation-queue: queue-activation
+# rabbitmq:
+#   register-queue: register-queue
+#   activation-queue: queue-activation
