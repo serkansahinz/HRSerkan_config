@@ -13,3 +13,7 @@ spring:
 jwt:
   secretKey: ${serkansecretkey}
   issuer: ${serkanissuer}
+rabbitmq:
+  auth-exchange: auth-exchange
+  register-binding-key: register-key
+  register-queue: register-queue
