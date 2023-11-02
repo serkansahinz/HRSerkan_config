@@ -4,8 +4,8 @@ spring:
   rabbitmq:
     host: localhost
     port: 5672
-    username: user
-    password: 12345
+    username: serkan
+    password: 123
   datasource:
     username: postgres
     password: 123456789
