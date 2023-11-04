@@ -3,7 +3,7 @@ server:
 spring:
   rabbitmq:
     host: localhost
-    port: 5672
+    port: 15672
     username: serkan
     password: 123
   datasource:
