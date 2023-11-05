@@ -8,7 +8,7 @@ spring:
     password: 123
   datasource:
     username: postgres
-    password: 12345678
+    password: 123456789
     url: jdbc:postgresql://localhost:5432/hrDB
     driver-class-name: org.postgresql.Driver
   jpa:
